@@ -3,7 +3,7 @@ Windows命令窗口将内容保存到文档中：echo "内容" > 文件名.后�
 
 执行命令: git clone https://github.com/Xubingxue/dongyimai_parent.git ,就会把项目克隆到cmd当前目录下
 
-git add .       add表示添加到 待提交的链表 中   .表示当前目录（在仓库文件下进行操作）
-git commit -m "提交的备注信息内容"       将 待提交的链表 中的数据提交到本地缓存中
+git add .       add表示添加到 待提交的链表(缓存) 中   .表示当前目录（在仓库文件下进行操作）
+git commit -m "提交的备注信息内容"       将 待提交的链表(缓存) 中的数据提交到本地缓存中
 git push      将本地缓存的数据推送到Github
 
